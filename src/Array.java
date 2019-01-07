@@ -4,13 +4,21 @@ public class Array {
 
 
     public static void main(String[] args) {
-        int size ;
-        CreateRandom sort = new CreateRandom();
-        sort.randomArray(43);
+                Random random = new Random();
+        int[] arr = new int[20];
+        System.out.println("default array");
+        for(int i = 0;i<arr.length;i++){
+            arr[i] = random.nextInt(555);
+            System.out.print(arr[i]+" ");}
 
-            }
+        //output
+        Func func = new Func(arr);
+        func.sortBubble();
+        func.searchMinMax();
 
-}
+
+
+}}
 /*основы git
 git init                                                    инициализация в нашем проекте
 git config --global user.name "name"                        инициализация имени
@@ -26,4 +34,6 @@ git tag "ver_1.0"
 git branch bubble2                                          создание второй ветки
 git branch                                                  просмотр веток
 git checkout bubble2
+git merge bubble2                                           слечение веток
+git log                                                     просмотр истории
 */
