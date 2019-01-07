@@ -1,13 +1,15 @@
 import java.util.Random;
 
-public class SortBubble {
+public class CreateRandom {
 
-void SortBubble()
+void randomArray(int size)
 {
     Random random = new Random();
-    int[]arr = new int[10];
+    int[]arr = new int[size];
     for(int i = 0;i<arr.length;i++){
     arr[i] = random.nextInt(100);
-    System.out.print(arr[i]+" ");
+    System.out.print(arr[i]+" ");}
 }
-}}
+
+
+}
