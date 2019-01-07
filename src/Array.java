@@ -15,6 +15,8 @@ public class Array {
         Func func = new Func(arr);
         func.sortBubble();
         func.searchMinMax();
+        func.arr2();
+
 
 
 

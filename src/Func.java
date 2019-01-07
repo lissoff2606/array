@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Func {
 
     private int[] arr;
@@ -38,4 +40,16 @@ public class Func {
         }
         System.out.println("min number:"+min+"\nmax number :"+max);
     }
+
+    public void arr2()
+    {
+        Random random = new Random();
+        int[][]arr2 = new int[6][6];
+        for(int i = 0;i<arr2.length;i++){
+            for (int j = 0;j<arr2.length;j++){
+                arr2[i][j] = random.nextInt(9) + random.nextInt(9);
+                System.out.print(arr2[i][j] + " ");}
+            System.out.println();}
+    }
+
 }
