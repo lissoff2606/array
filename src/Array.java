@@ -5,7 +5,10 @@ public class Bubble {
 
     public static void main(String[] args) {
 
-        Random random = new Random();
+        SortBubble sort = new SortBubble();
+        sort.SortBubble();
+
+        /*Random random = new Random();
         int[] arr = new int[10];
         System.out.println("random array");
         for(int i = 0;i<arr.length;i++)
@@ -14,6 +17,8 @@ public class Bubble {
         System.out.print(arr[i] +" ");
         }
 
+        SortBubble sort1 = new SortBubble();
+        sort1.SortBubble(3);*/
     }
 
 
@@ -28,3 +33,4 @@ git status                                                  статус про�
 git add --all                                               добавление файлов
 git commit -m "Init commit"
 
+*/
