@@ -25,4 +25,6 @@ git config --global user.name "lissoff2606"                 инициализа
 git config --global user.email "lissoff2606@gmail.com"      инициализация адреса
 git status                                                  статус проекта (отслеживаемые файлы)
 создание файла .gitignore в корне проекта . в этом файле указываем файлы , которые мы не хотим отслеживать в нашей системе контроля версий (.idea/*    out/*   *.iml)
+git add --all                                               добавление файлов
+git commit -m "Init commit"
 
