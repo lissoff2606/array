@@ -26,6 +26,14 @@ public class Func {
             System.out.print(arr[i]+" ");
     }
 
+    public void sumDiff()
+    {
+        int[] arrSort = arr;
+        int sum  = 0;int diff =0;
+        for(int x : arr) diff -=x;
+        for(int y : arr) sum +=y;
+        System.out.println("summ  : "+sum+ "\ndiff :" + diff);
+    }
 
     public void searchMinMax()
     {

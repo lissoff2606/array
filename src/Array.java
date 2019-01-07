@@ -11,11 +11,13 @@ public class Array {
             arr[i] = random.nextInt(555);
             System.out.print(arr[i]+" ");}
 
+
         //output
         Func func = new Func(arr);
-        func.sortBubble();
-        func.searchMinMax();
-        func.arr2();
+        func.sortBubble();      //сортировка массива методом пузырька
+        func.searchMinMax();    //поиск минимального и максимального числа в массиве
+        func.arr2();            //создание двухмерного массива
+        func.sumDiff();         //сумма и разность всех элементов в массиве
 
 
 
