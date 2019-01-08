@@ -15,9 +15,10 @@ public class Array {
         //output
         Func func = new Func(arr);
         func.sortBubble();      //сортировка массива методом пузырька
-        func.searchMinMax();    //поиск минимального и максимального числа в массиве
-        func.arr2();            //создание двухмерного массива
-        func.sumDiff();         //сумма и разность всех элементов в массиве
+//        func.searchMinMax();    //поиск минимального и максимального числа в массиве
+//        func.arr2();            //создание двухмерного массива
+//        func.sumDiff();         //сумма и разность всех элементов в массиве
+        func.selectSort();
 
 
 
@@ -28,7 +29,7 @@ git init                                                    инициализа
 git config --global user.name "name"                        инициализация имени
 git config --global user.email "@gmail.com"                 инициализация адреса
 git status                                                  статус проекта (отслеживаемые файлы)
-создание файла .gitignore в корне проекта . в этом файле указываем файлы , которые мы не хотим отслеживать в нашей системе контроля версий (.idea/*    out/*   *.iml)
+создание файла .gitignore в пшкорне проекта . в этом файле указываем файлы , которые мы не хотим отслеживать в нашей системе контроля версий (.idea/*    out/*   *.iml)
 git add --all                                               добавление файлов
 git commit -m "init commit"
 git remote add bubble1 https://github.com/lissoff2606/array добавить адрес на github
